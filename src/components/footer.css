@@ -1,0 +1,32 @@
+/* Layout principal para footer sticky */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+}
+
+.footer-sticky {
+  margin-top: auto;
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .display-4 {
+    font-size: 1.8rem !important;
+  }
+  
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
